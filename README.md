@@ -1,5 +1,7 @@
 # TaichiExperiments
 
+A peaceful place for Taichi.
+https://github.com/taichi-dev/taichi
 
 
 ## Table of Contents
