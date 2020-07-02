@@ -1,0 +1,4 @@
+build/
+*.sw[pon]
+.bak
+*.o
