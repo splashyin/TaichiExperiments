@@ -6,18 +6,18 @@ set -euxo pipefail
 # and install to /tmp
 git checkout master
 rm -rfv ./build
-mkdir -p /tmp/cmakeExample
-rm -rfv /tmp/cmakeExample
-./build.sh /tmp/cmakeExample
+mkdir -p /tmp/TaichiExperiments
+rm -rfv /tmp/TaichiExperiments
+./build.sh /tmp/TaichiExperiments
 
 # Checkout the gh-pages branch, remove all files, and copy the
 # installed documentation into the repo root.
 git checkout gh-pages
 rm -rf *
-cp -r /tmp/cmakeExample/docs/doxygen_docs/html/* ./
+cp -r /tmp/TaichiExperiments/docs/doxygen_docs/html/* ./
 
 # Clean-up temporary install location.
-rm -rfv /tmp/cmakeExample
+rm -rfv /tmp/TaichiExperiments
 
 # Stage and commit the changes, optionally rebasing (interactively).
 git add *
