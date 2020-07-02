@@ -28,7 +28,5 @@
 
 ## Build Status
 
-|       | master | 
-| ----- | ------ | 
-| macOS-10.14 | [![Build Status](https://travis-ci.com/splashyin/TaichiExperiments.svg?branch=master)](https://travis-ci.com/github/splashyin/TaichiExperiments) |
+[![Build Status](https://travis-ci.com/splashyin/TaichiExperiments.svg?branch=master)](https://travis-ci.com/splashyin/TaichiExperiments)
 
