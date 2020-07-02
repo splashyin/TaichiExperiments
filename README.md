@@ -1,4 +1,4 @@
-# CMakeTemplate
+# cmakeExample
 
 Basic template which can be used as a starting point for a new CMake-based C++ project.
 
@@ -16,10 +16,10 @@ This project also serves as an aggregation of useful CMake functionality.
 ## Usage
 
 To use this template: 
-1. Create a new repository using **CMakeTemplate** as the selected template project.
-2. Replace occurances of "CMakeTemplate" with the new project name.
+1. Create a new repository using **cmakeExample** as the selected template project.
+2. Replace occurances of "cmakeExample" with the new project name.
 ```bash
-find . -name ".git" -prune -o -type f -exec sed -i "s/CMakeTemplate/YOUR_PROJECT_NAME/g" {} +
+find . -name ".git" -prune -o -type f -exec sed -i "s/cmakeExample/YOUR_PROJECT_NAME/g" {} +
 ```
 3. Prune any un-wanted source directories or files (such as the example library and programs under `src/`).
 
@@ -35,7 +35,7 @@ See [cmake/macros/Public.cmake](cmake/macros/Public.cmake) for the full listing.
 
 ## Documentation
 
-Documentation based on the latest state of master, [hosted by GitHub Pages](https://moddyz.github.io/CMakeTemplate/).
+Documentation based on the latest state of master, [hosted by GitHub Pages](https://moddyz.github.io/cmakeExample/).
 
 ## Building
 
@@ -54,5 +54,5 @@ A convenience build script is also provided, for building all targets, and optio
 
 |       | master | 
 | ----- | ------ | 
-| macOS-10.14 | [![Build Status](https://travis-ci.com/moddyz/CMakeTemplate.svg?branch=master)](https://travis-ci.com/moddyz/CMakeTemplate) |
+| macOS-10.14 | [![Build Status](https://travis-ci.com/moddyz/cmakeExample.svg?branch=master)](https://travis-ci.com/moddyz/cmakeExample) |
 

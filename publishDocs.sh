@@ -6,18 +6,18 @@ set -euxo pipefail
 # and install to /tmp
 git checkout master
 rm -rfv ./build
-mkdir -p /tmp/CMakeTemplate
-rm -rfv /tmp/CMakeTemplate
-./build.sh /tmp/CMakeTemplate
+mkdir -p /tmp/cmakeExample
+rm -rfv /tmp/cmakeExample
+./build.sh /tmp/cmakeExample
 
 # Checkout the gh-pages branch, remove all files, and copy the
 # installed documentation into the repo root.
 git checkout gh-pages
 rm -rf *
-cp -r /tmp/CMakeTemplate/docs/doxygen_docs/html/* ./
+cp -r /tmp/cmakeExample/docs/doxygen_docs/html/* ./
 
 # Clean-up temporary install location.
-rm -rfv /tmp/CMakeTemplate
+rm -rfv /tmp/cmakeExample
 
 # Stage and commit the changes, optionally rebasing (interactively).
 git add *
